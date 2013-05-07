@@ -149,7 +149,7 @@ table th {
     background: #ccc;
   }
   .container {
-    width: 1000px;
+    max-width: 1200px;
     position: relative;
     margin: 3em auto;
     background: #fff;
@@ -159,27 +159,25 @@ table th {
     color: 0px 0px 1em rgba(0, 0, 0, 0.5);
   }
   .logo {
-    padding: 30px;
+    padding: 3% 30px;
     margin: 0;
   }
   .content {
     float: left;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 540px;
-    /* 600px */
-  
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 54%;
   }
   .side {
     float: right;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 340px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 34%;
     /* 400px */
   
   }
   .nav li {
-    width: 250px;
+    width: 25%;
     float: left;
     margin: 0;
     padding: 0;
