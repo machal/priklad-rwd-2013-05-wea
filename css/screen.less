@@ -107,3 +107,18 @@ b .nav-item,
   width: 120px;
   float: left;
 }
+
+// Mapa se zachovanim pomeru stran
+
+.map {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 9/16*100%; // 16:9	
+	
+	iframe {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}	
+}
