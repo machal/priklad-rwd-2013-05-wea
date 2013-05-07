@@ -93,6 +93,10 @@ table th {
     /* Fotogalerie */
   
   }
+  .content img {
+    max-width: 100%;
+    height: auto;
+  }
   .hide-on-screen {
     position: absolute;
     top: -200px;
@@ -173,10 +177,6 @@ table th {
   */
   body {
     background: #ccc;
-  }
-  .content img {
-    max-width: 100%;
-    height: auto;
   }
   .container {
     max-width: 1200px;
