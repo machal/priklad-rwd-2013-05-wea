@@ -73,30 +73,41 @@ table th {
   }
 }
 @media screen {
-  /* 
+  {
+    /* 
   
   --- Vzhled pro velke screeny --- 
   
   */
-  /* Lokalni helpery */
+  
+    /* Lokalni helpery */
+  
+    /* Konstrukcni elementy */
+  
+    /* Navigace */
+  
+    /* Polozka navigace */
+  
+    /* Paticka */
+  
+    /* Fotogalerie */
+  
+  }
   .hide-on-screen {
     position: absolute;
     top: -200px;
   }
-  /* Konstrukcni elementy */
   .content,
   .nav,
   .side,
   .logo {
     margin-bottom: 1.5em;
   }
-  /* Navigace */
   .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  /* Polozka navigace */
   .nav-item {
     display: block;
     border-bottom: 1px solid #fff;
@@ -119,7 +130,6 @@ table th {
   .nav li:last-child .nav-item {
     border-bottom: none;
   }
-  /* Paticka */
   .foot {
     clear: both;
     padding: 3em 30px;
@@ -129,7 +139,6 @@ table th {
   .foot p {
     margin-bottom: 0;
   }
-  /* Fotogalerie */
   .photogallery {
     padding: 15px 0 0 15px;
     background: #ccc;
@@ -139,6 +148,21 @@ table th {
     margin: 0 10px 10px 0;
     width: 120px;
     float: left;
+  }
+}
+@media screen and (min-width: 480px) {
+  .nav li {
+    width: 25%;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-item {
+    border-left: 1px solid #fff;
+    border-bottom: none;
+  }
+  .nav li:first-child .nav-item {
+    border-left: none;
   }
 }
 @media (min-width: 900px) {
@@ -181,18 +205,5 @@ table th {
     width: 34%;
     /* 400px */
   
-  }
-  .nav li {
-    width: 25%;
-    float: left;
-    margin: 0;
-    padding: 0;
-  }
-  .nav-item {
-    border-left: 1px solid #fff;
-    border-bottom: none;
-  }
-  .nav li:first-child .nav-item {
-    border-left: none;
   }
 }
