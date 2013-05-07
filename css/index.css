@@ -140,6 +140,8 @@ table th {
     width: 120px;
     float: left;
   }
+}
+@media (min-width: 900px) {
   /* 
   
   --- Layout - pro siroke displeje --- 
@@ -147,6 +149,10 @@ table th {
   */
   body {
     background: #ccc;
+  }
+  .content img {
+    max-width: 100%;
+    height: auto;
   }
   .container {
     max-width: 1200px;

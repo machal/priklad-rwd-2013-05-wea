@@ -17,6 +17,11 @@
 // Screen: vzhled prvku stranky + layout
 @media screen {
   @import 'screen'; 	
-  @import 'layout';
+}
+
+// Velke displeje: nacteme layout
+// TODO: Nefici v IE8
+@media (min-width: 900px) {
+	@import 'layout';
 }
 
